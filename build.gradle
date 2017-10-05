@@ -32,6 +32,14 @@ dependencies {
     compile 'com.github.eoss-th:eoss-brain:master'
 }
 
+jar {
+    manifest {
+        attributes 'Implementation-Title': project.name,
+                'Implementation-Version': version,
+                'Main-Class': 'com.eoss.bot.line.Application'
+    }
+}
+
 task javadocJar(type: Jar) {
     classifier = 'javadoc'
     from "${buildDir}/javadoc"
