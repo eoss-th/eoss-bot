@@ -11,13 +11,14 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="eoss-bot_main" />
     <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.16.18" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.line.line-bot-sdk-java:line-bot-spring-boot:master" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.line:line-bot-sdk-java:master" level="project" />
     <orderEntry type="library" name="Gradle: com.github.eoss-th:eoss-brain:master" level="project" />
     <orderEntry type="library" name="Gradle: com.github.line.line-bot-sdk-java:line-bot-api-client:master" level="project" />
     <orderEntry type="library" name="Gradle: com.github.line.line-bot-sdk-java:line-bot-model:master" level="project" />
     <orderEntry type="library" name="Gradle: com.github.line.line-bot-sdk-java:line-bot-servlet:master" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.line.line-bot-sdk-java:line-bot-spring-boot:master" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.line.line-bot-sdk-java:sample-spring-boot-echo:master" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.line.line-bot-sdk-java:sample-spring-boot-kitchensink:master" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:20.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.10.3" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.9" level="project" />
@@ -27,13 +28,15 @@
     <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-jackson:2.3.0" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.3.0" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.8.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:1.5.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.6.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.3.5.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-web:4.3.10.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:4.3.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.8.1" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-core:4.3.10.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.10.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.5.6.RELEASE" level="project" />
