@@ -35,7 +35,8 @@ dependencies {
 jar {
     manifest {
         attributes 'Implementation-Title': project.name,
-                'Implementation-Version': version
+                'Implementation-Version': version,
+                'Main-Class': 'com.eoss.bot.line.Application'
     }
 }
 
