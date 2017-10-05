@@ -35,14 +35,8 @@ dependencies {
 jar {
     manifest {
         attributes 'Implementation-Title': project.name,
-                'Implementation-Version': version,
-                'Main-Class': 'com.eoss.bot.line.Application'
+                'Implementation-Version': version
     }
-}
-
-task javadocJar(type: Jar) {
-    classifier = 'javadoc'
-    from "${buildDir}/javadoc"
 }
 
 task sourcesJar(type: Jar) {
@@ -51,7 +45,7 @@ task sourcesJar(type: Jar) {
 }
 
 artifacts {
-    archives javadocJar, sourcesJar
+    archives sourcesJar
 }
 
 compileJava {
