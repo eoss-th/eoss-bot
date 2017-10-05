@@ -39,15 +39,6 @@ jar {
     }
 }
 
-task sourcesJar(type: Jar) {
-    classifier = 'sources'
-    from sourceSets.main.allSource
-}
-
-artifacts {
-    archives sourcesJar
-}
-
 compileJava {
     options.compilerArgs << '-Xlint:all' << '-Werror' << '-Xlint:-processing' << '-parameters'
 }
