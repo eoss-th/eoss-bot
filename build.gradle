@@ -1,14 +1,9 @@
 buildscript {
     repositories {
         mavenCentral()
-/*        maven { url 'https://plugins.gradle.org/m2/' }*/
-/*        maven { url 'https://repo.spring.io/plugins-release' }*/
     }
 
     dependencies {
-/*        classpath 'gradle.plugin.com.gorylenko.gradle-git-properties:gradle-git-properties:1.4.17'
-        classpath 'io.spring.gradle:dependency-management-plugin:1.0.3.RELEASE'
-        classpath 'io.spring.gradle:propdeps-plugin:0.0.9.RELEASE'*/
         classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.5.6.RELEASE'
     }
 }
@@ -16,7 +11,6 @@ buildscript {
 group 'com.eoss.bot'
 version '0.0.1'
 
-apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 
 sourceCompatibility = 1.8
