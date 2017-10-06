@@ -29,10 +29,6 @@ repositories {
 
 dependencies {
     compileOnly 'org.projectlombok:lombok:1.16.18'
-/*    compile 'com.github.line.line-bot-sdk-java:line-bot-api-client:master'
-    compile 'com.github.line.line-bot-sdk-java:line-bot-model:master'
-    compile 'com.github.line.line-bot-sdk-java:line-bot-servlet:master'
-    compile 'com.github.line.line-bot-sdk-java:line-bot-spring-boot:master'*/
     compile 'com.github.line:line-bot-sdk-java:master'
     compile 'com.github.eoss-th:eoss-brain:master'
 }
@@ -40,8 +36,7 @@ dependencies {
 jar {
     manifest {
         attributes 'Implementation-Title': project.name,
-                'Implementation-Version': version/*,
-                'Main-Class': 'com.eoss.bot.line.Application'*/
+                'Implementation-Version': version
     }
 }
 
