@@ -17,6 +17,7 @@ group 'com.eoss.bot'
 version '0.0.1'
 
 apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
 
 sourceCompatibility = 1.8
 
@@ -39,8 +40,8 @@ dependencies {
 jar {
     manifest {
         attributes 'Implementation-Title': project.name,
-                'Implementation-Version': version,
-                'Main-Class': 'com.eoss.bot.line.Application'
+                'Implementation-Version': version/*,
+                'Main-Class': 'com.eoss.bot.line.Application'*/
     }
 }
 
