@@ -17,6 +17,7 @@
 package com.eoss.bot.line;
 
 import com.eoss.brain.*;
+import com.eoss.brain.command.line.BizWakeupCommandNode;
 import com.eoss.brain.command.line.WakeupCommandNode;
 import com.eoss.brain.net.Context;
 import com.eoss.brain.net.GAEStorageContext;
@@ -82,6 +83,7 @@ public class Application {
 
     public static void main(String[] args) {
 
+        Locale.setDefault(new Locale("th", "TH"));
         SpringApplication.run(Application.class, args);
     }
 
@@ -132,7 +134,7 @@ public class Application {
 
             push(sessionId, toLineMessage(MessageTemplate.STICKER + "1:405"));
             session = new Session(getContext());
-            new WakeupCommandNode(session).execute(null);
+            new BizWakeupCommandNode(session).execute(null);
             sessionContextMap.put(sessionId, session);
         }
 
